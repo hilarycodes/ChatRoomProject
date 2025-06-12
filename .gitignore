@@ -1,0 +1,10 @@
+.vs
+**/.classpath
+**/.env
+**/.settings
+**/.vs
+**/.vscode
+**/bin
+**/bin/
+**/obj
+**/obj/
