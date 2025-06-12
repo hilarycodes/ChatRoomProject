@@ -1,6 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<style>
+    .page-title{
+        color: red;
+    }
+</style>
 <div class="text-center">
     <h1 class="display-4" id="page-title">Web Chat</h1>
 
@@ -9,14 +14,21 @@
         
         <div>
             <label>Your Name</label>
-            <input type="text" placeholder="Input your name here"/>
+            <input type="text" id="name" placeholder="Input your name here"/>
         </div>
 
         <div>
-            <input type="text" />
-            <input type="button" value="Send"/>
+            <input type="text" id="message-box"/>
+            <input type="button" id="send-button" value="Send"/>
         </div>
 
+        <div>
+            <ul id="discussion-list"></ul>
+        </div>
     </div>
     <p></p>
 </div>
+
+<script>
+
+</script>
